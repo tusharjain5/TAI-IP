@@ -1,0 +1,84 @@
+@media only screen and (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    nav {
+        margin-top: 20px; 
+    }
+    .container4 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .firstcolumn,
+    .secondcolumn {
+        margin: 5% auto;
+    }
+
+    .heading5{
+        font-size: 12px;
+    }
+    .para3{
+        font-size: 10px;
+    }
+    .recipeimg{
+        width: 200px;
+        height: 200px;
+    }
+    .container3 {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .card {
+        width: 45%; 
+    }
+
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        padding: 0 10px; 
+    }
+    
+    .heading1 {
+        font-size: 24px;
+    }
+    
+    nav ul li {
+        margin-right: 10px; 
+    }
+    .container4 {
+        margin-left: 3%;
+        margin-right: 3%;
+    }
+
+    .heading5 {
+        font-size: 20px; 
+    }
+
+    .para3 {
+        font-size: 16px; 
+    }
+
+    .firstcolumn,
+    .secondcolumn {
+        margin: 3% auto; 
+    }
+
+    .heading3 {
+        font-size: 30px; 
+    }
+
+    .img1,
+    .img2 {
+        max-height: 150px; 
+    }
+
+    .card {
+        width: 90%; 
+    }
+
+}
